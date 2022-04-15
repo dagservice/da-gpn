@@ -31,8 +31,8 @@ DA-GPN
 Train the DA-GPN model:
 
 ```bash
->> sh run_roberta_tacred.sh    # TACRED and TACREV
->> sh run_roberta_retacred.sh  # Re-TACRED
+>> sh run_tacred.sh    # TACRED and TACREV
+>> sh run_retacred.sh  # Re-TACRED
 ```
 The results on TACRED and TACREV can be obtained in one run as they share the same training set. We use Roberta large as the backbone of BERT module.
 
