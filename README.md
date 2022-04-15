@@ -34,7 +34,7 @@ Train the DA-GPN model:
 >> sh run_roberta_tacred.sh    # TACRED and TACREV
 >> sh run_roberta_retacred.sh  # Re-TACRED
 ```
-The results on TACRED and TACREV can be obtained in one run as they share the same training set.
+The results on TACRED and TACREV can be obtained in one run as they share the same training set. We use Roberta large as the backbone of BERT module.
 
 ## DialogRE Dataset 
 This DialogRE dataset can be downloaded at: https://github.com/nlpdata/dialogre. You can download and unzip **BERT-base-uncased** from https://github.com/google-research/bert
@@ -42,7 +42,7 @@ This DialogRE dataset can be downloaded at: https://github.com/nlpdata/dialogre.
 ```bash
 >> sh run_dialog.sh    # Dialog
 ```
-Note: We use Roberta large as the backbone of BERT module, and perform our experiments on GTX 3090 card.
+Note: We perform our experiments on GTX 3090 card.
 
 ## Related Repo
 
