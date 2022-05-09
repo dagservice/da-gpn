@@ -177,7 +177,7 @@ def main():
 
 
     parser.add_argument("--dropout_prob", type=float, default=0.1)
-    parser.add_argument("--project_name", type=str, default="MD-AGDPN")
+    parser.add_argument("--project_name", type=str, default="DA-GPN")
     parser.add_argument("--run_name", type=str, default="tacred")
 
     parser.add_argument("--graph_hidden_size", default=300, type=int,
