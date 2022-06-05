@@ -1,14 +1,14 @@
 # DA-GPN
+Latent Graph Learning with Dual-channel Attention for Relation Extraction
 
-## Requirements
-* torch >= 1.8.1
+## Required Packages
 
-* transformers >= 3.4.0
-
+* Python (tested on 3.8.12)
+* CUDA (tested on 11.1)
+* [PyTorch](http://pytorch.org/) (tested on 1.8.1)
+* [Transformers](https://github.com/huggingface/transformers) (tested on 3.4.0)
 * ujson
-
 * tqdm
-  
 
 ## TACRED Dataset
 The TACRED dataset can be obtained from [this link](https://nlp.stanford.edu/projects/tacred/). The TACREV and Re-TACRED dataset can be obtained following the instructions in [Tacrev](https://github.com/DFKI-NLP/tacrev) and [Re-TACRED](https://github.com/gstoica27/Re-TACRED), respectively. The expected structure of files is:
