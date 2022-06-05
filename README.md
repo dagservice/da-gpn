@@ -43,8 +43,4 @@ This DialogRE dataset can be downloaded at: https://github.com/nlpdata/dialogre.
 >> sh run_dialog.sh    # Dialog
 ```
 Note: We perform our experiments on GTX 3090 card.
-
-## Related Repo
-
-Codes are adapted from the repo of the 2021 paper [An Improved Baseline for Sentence-level Relation Extraction].
-
+Part of the code is adapted from [An Improved Baseline for Sentence-level Relation Extraction]: https://github.com/wzhouad/RE_improved_baseline.
